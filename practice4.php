@@ -1,11 +1,3 @@
-<?php
-if (isset($_POST['size']) && is_numeric($_POST['size'])) {
-    $num = intval($_POST['size']);
-} else {
-    $num = 5; // Default value if no input is provided
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
